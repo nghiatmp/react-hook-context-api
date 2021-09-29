@@ -1,0 +1,23 @@
+.login-form {
+  height: 100vh;
+  display: flex;
+  form {
+    width: 500px;
+    margin: auto;
+    border: 1px solid #c5c5c3;
+    border-radius: 5px;
+    padding: 24px;
+    
+    label {
+      margin-bottom: 4px;
+    }
+    .form-control {
+      margin-bottom: 15px;
+    }
+    .error-message {
+      margin-bottom: 0 !important;
+      color: red;
+      margin-top: 5px;
+    }
+  }
+}

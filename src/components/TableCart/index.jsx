@@ -8,7 +8,7 @@ function Index(props) {
 
   const itemCart = () => {
     return cart.map((product, index) => 
-      <tr>
+      <tr key={product.id}>
         <th scope="row">{ index + 1 }</th>
         <td>{product.name}</td>
         <td className="text-center">{product.quantity}</td>

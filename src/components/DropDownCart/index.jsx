@@ -23,11 +23,11 @@ function Index(props) {
   const toggle = () => setDropdownOpen(prevState => !prevState);
   return (
     <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-      <DropdownToggle caret>
+      <DropdownToggle caret tag="span">
         { cart.length }
       </DropdownToggle>
           <DropdownMenu right>
-            {cart.length > 0?  renderCartDropDownMenu() : <h5>No phone in cart</h5>}
+            {cart.length > 0?  renderCartDropDownMenu() : <h6>No phone in cart</h6>}
           </DropdownMenu>  
     </Dropdown>
   );

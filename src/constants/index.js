@@ -23,4 +23,9 @@ export const phoneData = [
 		price: 120,
 		description: 'Phone Of Xiaomi'
 	}
-]
+];
+
+export const userInfor = {
+	email : 'super_admin@admin.com',
+  password: 'Aa@123456'
+}
